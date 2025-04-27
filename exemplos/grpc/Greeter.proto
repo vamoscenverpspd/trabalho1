@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package greeter;
+
+// The Greeter service definition
+service Greeter {
+  rpc SayHello (Request) returns (Response);
+}
+
+// The request message containing user's name
+message Request {
+  string requestName = 1;
+}
+
+message Response {
+  string responseMessage = 1;
+}
+
