@@ -10,4 +10,4 @@
 
 | Nome completo | Matrícula | Feature | Linguagem de programação / Tecnologia | Usuário do GitHub |
 |:--------------|:---------:|:--------|:-------------------------|:-----------------|
-| Rodolfo Cabral Neves    | 180011472   | gRPC Server   | NodeJS                   | [@roddas](https://github.com/roddas) |
+| Rodolfo Cabral Neves    | 180011472   |Servidor gRPC que cria e lista os produtos    | NodeJS                   | [@roddas](https://github.com/roddas) |
