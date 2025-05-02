@@ -1,2 +1,22 @@
+# JS build
 node_modules
 node_modules/
+
+# Go build
+*.exe
+*.out
+*.test
+
+# Diretórios
+/vendor/
+/bin/
+
+# IDEs
+.idea/
+.vscode/
+.history/
+
+# Temporários
+*.log
+*.tmp
+*.swp

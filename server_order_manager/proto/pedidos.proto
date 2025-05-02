@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package pedidos;
+
+option go_package = "./pedidospb";
+
+message Pedido {
+  string id = 1;
+  string produto = 2;
+  int32 quantidade = 3;
+}
+
+message CriarPedidoRequest {
+  string produto = 1;
+  int32 quantidade = 2;
+}
+
+message CriarPedidoResponse {
+  Pedido pedido = 1;
+}
+
+message ListarPedidosRequest {}
+
+message ListarPedidosResponse {
+  repeated Pedido pedidos = 1;
+}
+
+service PedidoService {
+  rpc CriarPedido(CriarPedidoRequest) returns (CriarPedidoResponse);
+  rpc ListarPedidos(ListarPedidosRequest) returns (ListarPedidosResponse);
+}
