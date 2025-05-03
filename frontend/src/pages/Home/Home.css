@@ -1,0 +1,28 @@
+.home-header{
+   text-align: center;
+   padding-top: 5%;
+}
+
+.home-container-buttons{
+   margin-top: 12%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.home-button{
+   width: 200px;
+   height: 54px;
+   color: #FFF;
+   background-color: #dbb52a;
+}
+
+.home-button:hover{
+   background-color: #d48611;
+   transition: 0.2s;
+}
+
+.home-icon{
+    margin-right: "12px";
+    margin-top: "2px"
+}

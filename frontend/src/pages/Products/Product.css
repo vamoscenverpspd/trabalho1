@@ -1,0 +1,151 @@
+.produtos-page {
+  padding: 20px;
+}
+
+.produtos-header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.produtos-header a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.produtos-header a:hover {
+  text-decoration: underline;
+  color: #777;
+  font-weight: bold;
+}
+
+.produtos-title {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.produtos-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 35px;
+}
+
+.adicionar-btn {
+  background-color: #2d8f28;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.adicionar-btn:hover {
+   background-color: #225c23;
+   transition: 0.2s;
+ }
+
+.produtos-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.produto-card {
+  background-color: #f5f5f5;
+  padding: 12px 16px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #c00;
+  font-size: 18px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 24px;
+  border-radius: 8px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal-header{
+  text-align: center;
+}
+
+.modal-label{
+  font-weight: bold;
+}
+
+.modal-buttons-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 6px 0px;
+}
+
+.modal input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.modal-add-button{
+  background-color: #2d8f28;
+  color: white;
+}
+
+.modal-add-button:hover {
+   background-color: #225c23;
+   transition: 0.2s;
+}
+
+.modal-cancel-button{
+  background-color: #dbb52a;
+  color: white;
+}
+
+.modal-cancel-button:hover {
+  background-color: #d48611;
+  transition: 0.2s;
+}
+
+.modal-delete-button{
+  background-color: #d11a2a;
+  color: white;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.modal-actions button {
+  width: 150px;
+}
+
