@@ -8,7 +8,6 @@ Antes de tudo, baixe as dependências:
 ```bash
 sudo apt install virt-manager qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils -y
 ```
-
 ## 2. Criar interface bridge no host
 
 Neste experimento, o servidor possui duas interfaces: uma Ethernet e outra Wi-Fi. A Ethernet está conectada à rede e foi utilizada para a criação da device `virtbr0`. Siga os passos de execução anteriores e adapte ao seu contexto.
@@ -42,7 +41,7 @@ virsh net-autostart nome-da-rede
 ## 3. Passo a passo para execução das VMs
 
 1. **Clonar o repositório**
-2. **Baixar os discos virtuais** [Link do drive com os discos virtuais]()
+2. **Baixar os discos virtuais** [Link do drive com os discos virtuais](https://drive.google.com/file/d/1Ayk3iSooceG_2-b537EwOl_uD4pDoA5-/view?usp=sharing)
 3. **Extrair os arquivos para o caminho** `/var/lib/libvirt/images/`
 4. **Verificar** se o diretório contém os bancos virtuais e os arquivos `.xml` das VMs (1, 2 e 3)
 5. **Executar o script `init-vms.sh`** com permissões de execução:
