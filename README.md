@@ -37,5 +37,5 @@ Para executar a aplicação siga as informações contidas em cada um dos README
 1) [Inicie a infraestrutura com virtualização para suportar essa aplicação](./vms/readme.md)
 2) [Inicie o servidor gRPC de produtos](./server_product_manager/readme.md)
 3) [Inicie o servidor gRPC de pedidos](./server_order_manager/readme.md)
-4) [Inicie o gateway (web server e o stub gRPC)](./gateway/README.md)
+4) [Inicie o gateway (web server e o stub gRPC)](./gateway/readme.md)
 5) [Inicie o frontend](./frontend/readme.md)

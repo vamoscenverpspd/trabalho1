@@ -1,6 +1,6 @@
 # 🧾 Server B - Gerenciador de Pedidos (gRPC + Golang)
 
-Este é o **Server B** do sistema de estoque distribuído da disciplina **TPPE**. Ele gerencia pedidos (criar e listar) usando **gRPC** e foi desenvolvido em **Go**.
+Este é o **Server B** do sistema de estoque distribuído da disciplina **PSPD**. Ele gerencia pedidos (criar e listar) usando **gRPC** e foi desenvolvido em **Go**.
 
 ## 📦 Funcionalidades
 
