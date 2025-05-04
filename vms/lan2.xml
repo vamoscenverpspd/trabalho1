@@ -1,0 +1,12 @@
+<network> 
+<name>lan2</name> 
+  <uuid>d693d09f-0f54-4764-9a1a-80c0135663d8</uuid> 
+  <bridge name="virbr1" stp="on" delay="0"/> 
+  <mac address="52:54:00:6a:83:9d"/> 
+  <domain name="lan2"/> 
+  <ip address="192.168.100.1" netmask="255.255.255.0"> 
+    <dhcp> 
+      <range start="192.168.100.128" end="192.168.100.254"/> 
+    </dhcp> 
+  </ip> 
+</network> 
