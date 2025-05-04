@@ -1,5 +1,5 @@
 # Atividade extraclasse
-- Laboratório de Virtualização com gRPC 
+- Laboratório de Virtualização e gRPC 
 
 ## Disciplina
 - Programação para Sistemas Paralelos e Distribuídos (Turma: 01)

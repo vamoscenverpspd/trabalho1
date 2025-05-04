@@ -24,9 +24,26 @@ function CreateProduct(call, callback) {
   console.log("New product registered: ", newProduct);
   callback(null, newProduct);
 }
+
 function ListProducts(call, callback) {
   console.log("Fetched products");
   callback(null, { products });
+}
+
+function DeleteProduct(call, callback) {
+  const { productId } = call.request;
+  
+  const index = products.findIndex(p => p.productId == productId);
+  if (index === -1) {
+    return callback({
+      code: grpc.status.NOT_FOUND,
+      message: `Product with ID ${productId} not found.`
+    });
+  }
+
+  const [deleted] = products.splice(index, 1);
+  console.log(`Deleted product:`, deleted);
+  callback(null, deleted);
 }
 
 /**
@@ -37,6 +54,7 @@ function main() {
   server.addService(product_proto.Product.service, {
     CreateProduct,
     ListProducts,
+    DeleteProduct,
   });
   server.bindAsync(
     "0.0.0.0:50051",

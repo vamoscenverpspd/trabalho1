@@ -16,4 +16,5 @@ node server.js
 ```
 node client.js  --command=list # Para listar todos os produtos
 node client.js  --command=create --name='Produto' # Para criar um novo produto
+node client.js  --command=delete --id=1 # Para deletar um produto
 ```
