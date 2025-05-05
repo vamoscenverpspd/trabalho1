@@ -39,3 +39,7 @@ Para executar a aplicação siga as informações contidas em cada um dos README
 3) [Inicie o servidor gRPC de pedidos](./server_order_manager/readme.md)
 4) [Inicie o gateway (web server e o stub gRPC)](./gateway/readme.md)
 5) [Inicie o frontend](./frontend/readme.md)
+
+## Apresentação
+
+[Link para gravação no YouTube](https://youtu.be/E1mQyen6FoQ)
